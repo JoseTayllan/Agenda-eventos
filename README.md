@@ -1,61 +1,42 @@
-Imheres - React Native Application 🚀
-Imheres é uma aplicação desenvolvida com React Native, com o objetivo de oferecer uma experiência de usuário fluida e interativa em dispositivos móveis. O projeto foi criado para demonstrar a implementação de funcionalidades essenciais utilizando React Native com TypeScript.
+# Imheres - React Native Application 🚀
 
-📋 Objetivo
-Este projeto tem como objetivo fornecer uma base sólida sobre os conceitos fundamentais do React Native com TypeScript, abordando:
+**Imheres** é uma aplicação desenvolvida com **React Native**, com o objetivo de oferecer uma experiência de usuário fluida e interativa em dispositivos móveis. O projeto foi criado para demonstrar a implementação de funcionalidades essenciais utilizando **React Native** com **TypeScript**.
 
-Criação de componentes reutilizáveis
+## 📋 Objetivo
 
-Navegação entre telas
+Este projeto tem como objetivo fornecer uma base sólida sobre os conceitos fundamentais do **React Native** com **TypeScript**, abordando:
 
-Integração com APIs externas
+- Criação de componentes reutilizáveis
+- Navegação entre telas
+- Integração com APIs externas
+- Gerenciamento de estado
+- Uso de imagens e ativos
+- Funcionalidades interativas
 
-Gerenciamento de estado
+## 🛠️ Estrutura do Projeto
 
-Uso de imagens e ativos
-
-Funcionalidades interativas
-
-🛠️ Estrutura do Projeto
 A estrutura do repositório é a seguinte:
 
-perl
-Copiar
-imheres/
-│
-├── .expo/                # Configurações e arquivos relacionados ao Expo
-├── .git/                 # Controle de versão com Git
-├── .gitignore            # Arquivo para ignorar arquivos não desejados no repositório
-├── app.json              # Configurações gerais da aplicação
-├── App.tsx               # Componente principal da aplicação
-├── assets/               # Imagens, ícones e outros ativos
-├── index.ts              # Ponto de entrada da aplicação
-├── node_modules/         # Dependências do projeto
-├── package-lock.json     # Arquivo de bloqueio das dependências
-├── package.json          # Informações sobre dependências e scripts
-├── src/                  # Código-fonte da aplicação
-└── tsconfig.json         # Configurações do TypeScript
-💡 Conceitos Abordados
+## 💡 Conceitos Abordados
+
 Neste projeto, você aprenderá a:
 
-Componentização: Como criar e organizar componentes reutilizáveis no React Native.
+- **Componentização**: Como criar e organizar componentes reutilizáveis no React Native.
+- **Navegação**: Como implementar navegação entre diferentes telas da aplicação.
+- **Gerenciamento de Estado**: Utilização de ferramentas como `Context API` ou `Redux` para gerenciar o estado global da aplicação.
+- **Integração com APIs**: Como consumir dados de APIs externas para integrar funcionalidades e melhorar a experiência do usuário.
+- **Gerenciamento de Recursos Locais**: Como carregar e exibir imagens e outros recursos locais de maneira eficiente.
 
-Navegação: Como implementar navegação entre diferentes telas da aplicação.
+## ⚡ Como Usar
 
-Gerenciamento de Estado: Utilização de ferramentas como Context API ou Redux para gerenciar o estado global da aplicação.
+### 1. Clonar o Repositório
 
-Integração com APIs: Como consumir dados de APIs externas para integrar funcionalidades e melhorar a experiência do usuário.
-
-Gerenciamento de Recursos Locais: Como carregar e exibir imagens e outros recursos locais de maneira eficiente.
-
-⚡ Como Usar
-1. Clonar o Repositório
 Primeiro, clone o repositório para o seu ambiente local:
 
-bash
-Copiar
+```bash
 git clone <URL_DO_REPOSITORIO>
 cd imheres
+
 2. Instalar Dependências
 Instale as dependências do projeto utilizando o NPM ou Yarn:
 
