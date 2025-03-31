@@ -1,10 +1,12 @@
 Imheres - React Native Application 🚀
-Imheres é uma aplicação desenvolvida com React Native que visa proporcionar uma experiência de usuário fluida e interativa em dispositivos móveis. O projeto foi criado para ajudar no aprendizado e implementação de funcionalidades modernas utilizando o React Native com TypeScript.
+Imheres é uma aplicação desenvolvida com React Native, com o objetivo de oferecer uma experiência de usuário fluida e interativa em dispositivos móveis. O projeto foi criado para demonstrar a implementação de funcionalidades essenciais utilizando React Native com TypeScript.
 
 📋 Objetivo
-O objetivo deste projeto é oferecer uma base sólida para aprender os conceitos essenciais do React Native com TypeScript, incluindo:
+Este projeto tem como objetivo fornecer uma base sólida sobre os conceitos fundamentais do React Native com TypeScript, abordando:
 
-Criação de componentes e navegação
+Criação de componentes reutilizáveis
+
+Navegação entre telas
 
 Integração com APIs externas
 
@@ -12,7 +14,7 @@ Gerenciamento de estado
 
 Uso de imagens e ativos
 
-Implementação de funcionalidades interativas
+Funcionalidades interativas
 
 🛠️ Estrutura do Projeto
 A estrutura do repositório é a seguinte:
@@ -21,8 +23,8 @@ perl
 Copiar
 imheres/
 │
-├── .expo                 # Configurações e arquivos relacionados ao Expo
-├── .git                  # Controle de versão com Git
+├── .expo/                # Configurações e arquivos relacionados ao Expo
+├── .git/                 # Controle de versão com Git
 ├── .gitignore            # Arquivo para ignorar arquivos não desejados no repositório
 ├── app.json              # Configurações gerais da aplicação
 ├── App.tsx               # Componente principal da aplicação
@@ -48,7 +50,7 @@ Gerenciamento de Recursos Locais: Como carregar e exibir imagens e outros recurs
 
 ⚡ Como Usar
 1. Clonar o Repositório
-Clone o repositório para o seu ambiente local:
+Primeiro, clone o repositório para o seu ambiente local:
 
 bash
 Copiar
